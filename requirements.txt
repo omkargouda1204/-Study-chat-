@@ -1,0 +1,19 @@
+# Core Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+
+# Environment & Configuration
+python-dotenv==1.0.1
+
+# Database
+pymongo==4.10.1
+
+# LangChain & LLM
+langchain==0.3.7
+langchain-core==0.3.15
+langchain-groq==0.2.1
+langsmith==0.1.137
+
+# Optional: for better performance
+python-multipart==0.0.12
